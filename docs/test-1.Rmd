@@ -1,0 +1,44 @@
+---
+title: "Test 1"
+author: "Shaurita Hutchins"
+date: "9/19/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Important Concepts
+
+## Important Packages
+
+Load `tidyverse`, 
+
+
+```{r packages}
+library(tidyverse)
+library(car)
+library()
+```
+
+## Important Functions
+
+- mean
+- filter
+- ggplot
+
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
