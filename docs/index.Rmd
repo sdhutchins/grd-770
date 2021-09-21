@@ -1,5 +1,0 @@
----
-title: "GRD 770"
----
-
-Hello, Website!
