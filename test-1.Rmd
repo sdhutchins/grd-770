@@ -1,5 +1,5 @@
 ---
-title: "Test 1"
+title: "Study Guide: Test 1"
 author: "Shaurita Hutchins"
 date: "9/19/2021"
 output: html_document
@@ -9,17 +9,22 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Important Concepts
+# Statistical Concepts
 
-## Important Packages
+## R Packages
 
-Load `tidyverse`, 
+The packages below are the ones that were used in modules 1 to 5. It's best to load those at the very beginning.
 
 
 ```{r packages}
 library(tidyverse)
 library(car)
-library()
+library(broom)
+library(knitr)
+library(kableExtra)
+library(QuantPsyc)
+library(pastecs)
+library(sciplot)
 ```
 
 ## Important Functions

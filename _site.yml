@@ -3,8 +3,6 @@ output_dir: "."
 navbar:
   title: "GRD 770"
   left:
-    - text: "Home"
-      href: index.html
     - text: "Test 1"
       href: test-1.html
 output:
