@@ -3,9 +3,15 @@ output_dir: "."
 navbar:
   title: "GRD 770"
   left:
-    - text: "Test 1"
-      href: test-1.html
+    - text: "Study Guides"
+      icon: fa-book-open
+      menu:
+      - text: Test 1
+        href: test-1.html
+  right: 
+    - icon: fa-github fa-lg
+      href: https://github.com/sdhutchins/grd-770
 output:
   html_document:
-    theme: cosmo
+    theme: yeti
     highlight: textmate

@@ -2,16 +2,20 @@
 title: "Study Guide: Test 1"
 author: "Shaurita Hutchins"
 date: "9/19/2021"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Statistical Concepts
+## Statistical Concepts
 
-## R Packages
+## Load R Packages
 
 The packages below are the ones that were used in modules 1 to 5. It's best to load those at the very beginning.
 
